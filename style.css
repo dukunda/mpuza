@@ -34,7 +34,7 @@ header h3{
     margin-left: 20px   ;
 }
 .icon{
-    position: relative; /* This allows the badge to sit on top */
+    position: relative; 
     font-size: 24px;
     margin-bottom: 5px;
 }
@@ -42,7 +42,7 @@ header h3{
   position: absolute;
   top: -5px;
   right: -12px;
-  background-color: #42a5f5; /* Light blue */
+  background-color: #42a5f5; 
   color: white;
   font-size: 10px;
   font-weight: bold;
@@ -72,23 +72,23 @@ header h3{
 .fa-magnifying-glass{
     position: absolute;
     left: 10px;
-    color: #42a5f5; /* Light blue icon */
+    color: #42a5f5; 
     font-size: 16px;
 }
 .profile {
   width: 30px;
   height: 30px;
-  border-radius: 50%; /* Makes it a circle */
+  border-radius: 50%; 
   border: 1px solid white;
   margin-bottom: 2px;
   margin-top: 15px;
 }
 .refresher-btn {
   background-color: white;
-  color: #e53935; /* Red text */
+  color: #e53935; 
   border: none;
   padding: 8px 20px;
-  border-radius: 20px; /* Pill shape */
+  border-radius: 20px; 
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
@@ -221,6 +221,275 @@ main{
   margin-left: -250px;
   margin-top: 25px;
 }
-.home{
+.Home-one{
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  padding: 20px;
+}
+.header-icon{
+  margin-left: 430px;
+  width: 40px;
+  height: 40px;
+  color: #35a8df;
+}
+.post-card {
+  margin-top: 10px;
+  display: flex;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 700px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.post-body {
+  flex-grow: 1;
+}
+
+.post-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #a0a0a0;
+  margin-bottom: 10px;
+}
+
+.visibility-selector {
+  color: #4fbbe3;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  margin: 12px 0;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #4fbbe3;
+  font-size: 18px;
+}
+
+.price-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-btn {
+  background-color: #8cd4f1;
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.count-text {
+  color: #4fbbe3;
+  font-weight: bold;
+  font-size: 14px;
+}
+.carousel-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  background-color: #deeef5; 
+  position: relative;
+  align-items: center;
+}
+
+.job-card {
+  max-width: 200px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.company-logo {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-size: 18px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.verified {
+  color: #4fbbe3;
+  font-size: 14px;
+}
+
+.job-title {
+  font-weight: 800;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.requirements {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.urgent-btn {
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.next-arrow {
   position: absolute;
+  right: 5px;
+  background: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  color: #4fbbe3;
+  cursor: pointer;
+}
+.card-container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 550px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 15px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.follow-action {
+  color: #3498db;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.company-badge {
+  width: 120px;
+  height: 25px;
+  background-color: #3498db;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.details-timer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-details li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.countdown {
+  display: flex;
+  gap: 15px;
+}
+
+.time-unit {
+  text-align: center;
+}
+
+.time-unit .number {
+  display: block;
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.time-unit .label {
+  font-size: 12px;
+  color: #333;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 15px 0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #333;
+  font-size: 14px;
+}
+
+.heart-icon {
+  color: #e74c3c;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
