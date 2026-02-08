@@ -239,7 +239,7 @@ main{
   background: #fff;
   padding: 16px;
   border-radius: 8px;
-  max-width: 700px;
+  max-width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
@@ -329,7 +329,7 @@ main{
 }
 
 .job-card {
-  max-width: 200px;
+  max-width: 33%;
   background: white;
   border-radius: 12px;
   padding: 20px;
@@ -398,7 +398,7 @@ main{
   background: #fff;
   border-radius: 10px;
   padding: 15px;
-  max-width: 550px;
+  max-width: 100%;
   font-family: Arial, sans-serif;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   margin-top: 15px;
@@ -419,10 +419,11 @@ main{
 }
 
 .company-badge {
-  width: 120px;
-  height: 25px;
+  width: 200px;
+  height: 40px;
+  margin-left: 15px;
   background-color: #3498db;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-bottom: 15px;
 }
 
@@ -441,6 +442,7 @@ main{
 .job-details li {
   font-size: 14px;
   margin-bottom: 8px;
+  padding-left: 15px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -449,6 +451,7 @@ main{
 .countdown {
   display: flex;
   gap: 15px;
+  margin-left: 100px;
 }
 
 .time-unit {
@@ -492,4 +495,113 @@ main{
   display: flex;
   align-items: center;
   gap: 5px;
+}
+.job-post-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.company-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.company-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.verified-icon {
+  color: #4fbbe3;
+  font-size: 14px;
+}
+
+.follow-btn {
+  color: #4fbbe3;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.post-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.requirements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.requirements-list li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer-container {
+  display: flex;
+  gap: 12px;
+  text-align: center;
+}
+
+.time-val {
+  display: block;
+  color: #ff5a5f; 
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.time-label {
+  font-size: 11px;
+  color: #333;
+}
+
+.post-divider {
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+  margin: 15px 0;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.footer-action {
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.heart {
+  color: #ff5a5f;
 }
