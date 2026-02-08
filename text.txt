@@ -1,0 +1,1 @@
+echo "protocol=https`nhost=github.com" | git credential-manager erase
