@@ -1,7 +1,7 @@
 # Activity 3: Html and Css
 
 ##  Preview
-![Final UI Screenshot](screenshot.png)
+![Final UI Screenshot](images/screenshot.png)
 
 ##  Project Objective
 [cite_start]The goal of this assignment is to translate a UI/UX mockup into real code using HTML and CSS[cite: 1, 10]. [cite_start]The focus is on structure, layout, spacing, typography, and visual accuracy rather than functionality[cite: 11].
